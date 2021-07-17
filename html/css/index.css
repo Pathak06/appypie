@@ -1,0 +1,89 @@
+html{
+    background-image: url(/html/assets/images/background.jpg) no-repeat center center fixed;
+}
+
+.title .container .logo img{  /*CSS for logo*/
+    width: 15%;
+
+}
+.item ul li{                 /*CSS for titleBar     */
+    position: relative;
+    display: inline-block;
+    left: 25%;
+    top: -95px;
+    font-size: 18px;
+    padding: 1%;
+}
+
+.title .container .logo .titleBar .button{
+    width: 70%;
+    position: relative;
+    left: 88%;
+    top: -172px;
+}
+
+.middleBar .container .phone img{
+    width: 30%;
+    position: relative;
+    left: 20%;
+    top: 90px;
+    opacity: 0.6;
+    height: 400px;
+}
+
+.middleBar .container .phone :hover{
+   opacity: 0.9;
+}
+
+.middleBar .container .title h2{
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    width: 30%;
+    left: 57%;
+    top: -305px;
+}
+
+.middleBar .container .title .subTitle p{
+    width: 40%;
+    position: relative;
+    left: 57%;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    top: -290px;
+    text-align: justify;
+}
+
+.middleBar .container .title .button img{
+    width: 12%;
+    position: relative;
+    top: -230px;
+    left: 57%;
+    opacity: 0.6;
+}
+
+.middleBar .container .title .button :hover{
+    opacity: 1;
+  
+}
+
+.footer .logo img{
+    width: 10%;
+    position: relative;
+    top: 60px;
+    left: 45%;
+    opacity: 0.7;
+}
+
+.footer .logo .body p{
+    width: 50%;
+    position: relative;
+    top: 40px;
+    left: 27%;
+    text-align: center;
+    opacity: 0.7;
+   
+}
+
