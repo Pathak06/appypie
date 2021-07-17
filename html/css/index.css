@@ -1,11 +1,18 @@
-html{
-    background-image: url(/html/assets/images/background.jpg) no-repeat center center fixed;
+body{
+    background-color: lightcyan;
 }
 
 .title .container .logo img{  /*CSS for logo*/
     width: 15%;
+    
 
 }
+
+.title .container .logo img{
+    background: lightcyan;
+}
+
+
 .item ul li{                 /*CSS for titleBar     */
     position: relative;
     display: inline-block;
@@ -13,13 +20,33 @@ html{
     top: -95px;
     font-size: 18px;
     padding: 1%;
+    opacity: 0.6;
+    border: 0.5px dashed black ;
+    border-radius: 40px;
+    color: white;
+    background-image: linear-gradient(to right, red,blue);
+    
 }
 
-.title .container .logo .titleBar .button{
-    width: 70%;
-    position: relative;
-    left: 88%;
-    top: -172px;
+.item ul :hover{                 /*CSS for titleBar     */
+   opacity: 1;
+     /* color: red; */
+   border-color: red;
+   transition: 0.3s ease-in-out;
+   
+}
+
+
+.item li.button{
+    margin-left: 15%;
+    
+}
+
+.item li.button a{
+    color: white;
+    text-decoration: none;
+    
+
 }
 
 .middleBar .container .phone img{
